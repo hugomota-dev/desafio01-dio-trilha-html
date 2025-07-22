@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curso Prático de HTML</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" media="all" />
   </head>
   <body>
-    <header class="hero">
-      <h1>Curso Básico de HTML</h1>
-      <p>
-        Aprenda HTML do zero com exemplos práticos e linguagem fácil de
-        entender.
-      </p>
+    <header class="hero" id="hero">
+      <h1>O Básico do HTML</h1>
     </header>
 
     <nav>
@@ -44,20 +40,20 @@
           Se quiser ver como tudo começou, acesse a primeira página da web
           criada em 1991 por Tim Berners-Lee:
         </p>
-        <p>
-          <a
-            href="https://info.cern.ch/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >👉 Visitar o primeiro site da Web</a
-          >
-        </p>
         <blockquote>
           <p>
             <strong>Curiosidade:</strong> O HTML não é uma linguagem de
             programação, mas sim uma linguagem de marcação. Ele não executa
             lógica, apenas estrutura as informações no navegador, através de
             tags que definem o conteúdo.
+          </p>
+          <p>
+            <a
+              href="https://info.cern.ch/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Clique aqui para Visitar o primeiro site da Web</a
+            >
           </p>
         </blockquote>
       </section>
@@ -247,9 +243,19 @@
           </p>
         </blockquote>
       </section>
+      <a href="#hero" class="link-voltar">Voltar ao topo</a>
     </main>
     <footer>
       <p>&copy; 2025 Curso Básico de HTML - Criado por Hugo Mota</p>
+      <p>
+        Verifique o código no
+        <a
+          href="https://github.com/hugomota-dev/desafio01-dio-trilha-html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
     </footer>
   </body>
 </html>
