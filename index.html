@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso Prático de HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Curso Básico de HTML</h1>
+      <p>
+        Aprenda HTML do zero com exemplos práticos e linguagem fácil de
+        entender.
+      </p>
+    </header>
+
+    <nav>
+      <a href="#introducao">Introdução</a>
+      <a href="#aula1">Aula 1</a>
+      <a href="#aula2">Aula 2</a>
+      <a href="#aula3">Aula 3</a>
+      <a href="#aula4">Aula 4</a>
+      <a href="#aula5">Aula 5</a>
+      <a href="#aula6">Aula 6</a>
+    </nav>
+
+    <main>
+      <!-- Introdução -->
+      <section id="introducao">
+        <h2>Introdução</h2>
+        <p>
+          O <strong>HTML</strong>, sigla para
+          <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da
+          construção de páginas da web.
+        </p>
+        <p>
+          Com HTML, você descreve a estrutura do conteúdo para que o navegador
+          saiba exibir corretamente cada parte. Por exemplo: o título, o
+          parágrafo, o link, a imagem… Tudo isso é marcado com as chamadas
+          <strong>tags</strong>.
+        </p>
+        <p>
+          Se quiser ver como tudo começou, acesse a primeira página da web
+          criada em 1991 por Tim Berners-Lee:
+        </p>
+        <p>
+          <a
+            href="https://info.cern.ch/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >👉 Visitar o primeiro site da Web</a
+          >
+        </p>
+        <blockquote>
+          <p>
+            <strong>Curiosidade:</strong> O HTML não é uma linguagem de
+            programação, mas sim uma linguagem de marcação. Ele não executa
+            lógica, apenas estrutura as informações no navegador, através de
+            tags que definem o conteúdo.
+          </p>
+        </blockquote>
+      </section>
+
+      <!-- Aula 1 -->
+      <section id="aula1" aria-label="HTML na Prática">
+        <h2>Aula 1: HTML na Prática</h2>
+
+        <p>
+          Você não precisa instalar nada. Vamos começar com o que já vem no seu
+          computador.
+        </p>
+        <p>Abra o Bloco de Notas e crie sua primeira página web em 4 passos:</p>
+
+        <p>
+          <strong>Passo 1:</strong> Pressione <strong>Windows + R</strong>,
+          digite <strong>notepad</strong> e aperte <strong>Enter</strong>.
+        </p>
+
+        <p><strong>Passo 2:</strong> Digite o seguinte código:</p>
+
+        <div class="codigo_box">
+          <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Minha Primeira Página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+    &lt;p&gt;Minha primeira página HTML criada no bloco de notas.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </pre
+          >
+        </div>
+
+        <p>
+          <strong>Passo 3:</strong> Salve como <strong>index.html</strong>. Na
+          opção \"Tipo\", selecione <strong>Todos os Arquivos</strong>.
+        </p>
+
+        <p>
+          <strong>Passo 4:</strong> Dê dois cliques no arquivo salvo e abra no
+          navegador.
+        </p>
+
+        <blockquote>
+          <p>
+            <strong>Importante:</strong> A extensão <code>.html</code> é
+            essencial para o navegador reconhecer o arquivo como página da web.
+          </p>
+        </blockquote>
+        <blockquote>
+          <p>
+            <strong>Importante:</strong> Digite o código não cópie e cole. Assim
+            você aprende melhor. Se errar, não tem problema, é assim que se
+            aprende!
+          </p>
+        </blockquote>
+      </section>
+
+      <!-- Aula 2 -->
+      <section id="aula2">
+        <h2>Aula 2: Trabalhando com Formulários</h2>
+
+        <p>
+          Formulários servem para coletar dados do usuário. No HTML usamos a tag
+          <code>&lt;form&gt;</code> e dentro dela colocamos campos como:
+        </p>
+
+        <ul>
+          <li>
+            <code>&lt;input&gt;</code> – Campo de texto, e-mail, senha, etc.
+          </li>
+          <li><code>&lt;button&gt;</code> – Botão para envio</li>
+          <li><code>&lt;checkbox&gt;</code> – Caixa de seleção</li>
+          <li><code>&lt;radio&gt;</code> – Seleção única</li>
+          <li><code>&lt;select&gt;</code> – Lista de opções</li>
+          <li><code>&lt;textarea&gt;</code> – Campo de texto longo</li>
+        </ul>
+
+        <p>
+          Os métodos <strong>GET</strong> e <strong>POST</strong> definem como
+          os dados são enviados para o servidor. O GET mostra as informações na
+          URL (tipo uma carta aberta). O POST envia os dados de forma mais
+          segura (tipo carta fechada).
+        </p>
+      </section>
+
+      <!-- Aula 3 -->
+      <section id="aula3">
+        <h2>Aula 3: Estruturando o HTML + Formatação</h2>
+
+        <p>Nessa etapa aprendemos a organizar e estilizar o conteúdo usando:</p>
+
+        <ul>
+          <li><code>&lt;strong&gt;</code> – Negrito semântico (importância)</li>
+          <li><code>&lt;b&gt;</code> – Negrito visual</li>
+          <li><code>&lt;i&gt;</code> – Itálico</li>
+          <li><code>&lt;u&gt;</code> – Sublinhado</li>
+          <li><code>&lt;div&gt;</code> – Container de bloco</li>
+          <li><code>&lt;span&gt;</code> – Container em linha</li>
+          <li><code>&lt;fieldset&gt;</code> – Agrupa campos de formulário</li>
+          <li>
+            <code>&lt;embed&gt;</code> e <code>&lt;iframe&gt;</code> –
+            Incorporam conteúdos externos
+          </li>
+        </ul>
+
+        <p>Também vimos como usar cores: nomes, hexadecimal e RGB.</p>
+      </section>
+
+      <!-- Aula 4 -->
+      <section id="aula4">
+        <h2>Aula 4: Trabalhando com Mídias</h2>
+
+        <p>
+          O HTML permite adicionar mídias como imagens, áudio e vídeo com as
+          tags:
+        </p>
+
+        <ul>
+          <li><code>&lt;img&gt;</code> – Imagem</li>
+          <li><code>&lt;audio&gt;</code> – Áudio</li>
+          <li><code>&lt;video&gt;</code> – Vídeo</li>
+          <li><code>&lt;track&gt;</code> – Legenda de vídeo</li>
+          <li>
+            <code>&lt;iframe&gt;</code> – Conteúdo de outro site (ex: YouTube)
+          </li>
+        </ul>
+      </section>
+
+      <!-- Aula 5 -->
+      <section id="aula5">
+        <h2>Aula 5: Tabelas</h2>
+
+        <p>As tabelas são úteis para exibir dados em linhas e colunas:</p>
+
+        <ul>
+          <li><code>&lt;table&gt;</code> – Inicia a tabela</li>
+          <li><code>&lt;tr&gt;</code> – Linha da tabela</li>
+          <li><code>&lt;td&gt;</code> – Célula comum</li>
+          <li><code>&lt;th&gt;</code> – Cabeçalho</li>
+          <li>
+            <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>,
+            <code>&lt;tfoot&gt;</code> – Cabeçalho, corpo e rodapé
+          </li>
+        </ul>
+
+        <p>Lembre-se: tabela não é para layout, é para dados.</p>
+      </section>
+
+      <!-- Aula 6 -->
+      <section id="aula6">
+        <h2>Aula 6: HTML Semântico</h2>
+
+        <p>
+          O HTML semântico melhora a organização e a acessibilidade das páginas.
+        </p>
+
+        <p>Principais tags:</p>
+
+        <ul>
+          <li><code>&lt;main&gt;</code> – Conteúdo principal</li>
+          <li><code>&lt;header&gt;</code> – Cabeçalho</li>
+          <li><code>&lt;footer&gt;</code> – Rodapé</li>
+          <li><code>&lt;nav&gt;</code> – Navegação</li>
+          <li><code>&lt;section&gt;</code> – Seção</li>
+          <li><code>&lt;article&gt;</code> – Conteúdo independente</li>
+          <li><code>&lt;aside&gt;</code> – Conteúdo complementar</li>
+          <li>
+            <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code> –
+            Imagem com legenda
+          </li>
+          <li>
+            <code>&lt;blockquote&gt;</code> e <code>&lt;q&gt;</code> – Citações
+          </li>
+          <li><code>&lt;picture&gt;</code> – Imagens adaptativas</li>
+        </ul>
+
+        <blockquote>
+          <p>
+            Gostou? Agora, proponho a seguinte missão: Relizar uma pesquisa
+            sobre o HTML semântico, acessibilidade, SEO e Web Scraping. Bons
+            estudos!
+          </p>
+        </blockquote>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Curso Básico de HTML - Criado por Hugo Mota</p>
+    </footer>
+  </body>
+</html>
